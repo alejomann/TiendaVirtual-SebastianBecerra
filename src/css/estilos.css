@@ -31,10 +31,17 @@ nav .contProfile .login {  background-color: #FFF;  text-decoration: none; color
 nav .contProfile .login:hover { background-color: #000;}
 nav .contProfile .login:hover small { color: #FFF !important;}
 
-
-
-
-
+nav .contCarrito { background-color: #444; box-sizing: border-box; cursor: pointer; padding: 10px 15px !important;
+    -webkit-border-radius: 5px ;
+    -moz-border-radius: 5px ;
+    -ms-border-radius: 5px ;
+    -o-border-radius: 5px ;
+    -moz-transition:all 0.25s ease 0s;
+    -o-transition:all 0.25s ease 0s;
+    -ms-transition:all 0.25s ease 0s;
+    -webkit-transition:all 0.25s ease 0s;}
+nav .contCarrito:hover { background-color: #000;}
+nav .contCarrito small { color: #FFF; font-size: 13px;}
 
 
 
