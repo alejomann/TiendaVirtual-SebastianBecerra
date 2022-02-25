@@ -46,3 +46,33 @@ nav .contCarrito small { color: #FFF; font-size: 13px;}
 
 
 
+
+
+.grillaProductos { display: flex;}
+.grillaProductos .card { width: 300px; margin: 10px; text-align: center;}
+.grillaProductos .card .price { font-size: 25px; line-height: 32px; font-weight: 700; color: rgb(10, 37, 156);}
+
+.contSumaResta { width: 100%; margin: auto; height: auto; display: flex; align-items: center; justify-content: space-between; border: 1px solid #CCC; box-sizing: border-box; padding: 3px;
+    -webkit-border-radius: 5px ;
+    -moz-border-radius: 5px ;
+    -ms-border-radius: 5px ;
+    -o-border-radius: 5px ;
+}
+.contSumaResta button { background-color: transparent; border: none; margin: 0; padding: 4px; width: 45px !important; font-size: 24px; color: rgb(21, 46, 185); cursor: pointer;
+    -moz-transition:all 0.25s ease 0s;
+    -o-transition:all 0.25s ease 0s;
+    -ms-transition:all 0.25s ease 0s;
+    -webkit-transition:all 0.25s ease 0s;
+    -webkit-border-radius: 5px ;
+    -moz-border-radius: 5px ;
+    -ms-border-radius: 5px ;
+    -o-border-radius: 5px ;}
+.contSumaResta button:hover { background-color: #EEE;}
+.contSumaResta input { margin: 0; padding: 0px; width: 120px; text-align: center; color: #444; font-size: 16px; line-height: 28px; background: transparent; border: none;}
+
+.contadorProductos .btnAgregar { width: 100%; margin: auto; display: block; text-transform: uppercase; padding: 12px 0px;}
+
+
+
+
+
