@@ -45,12 +45,24 @@ nav .contCarrito small { color: #FFF; font-size: 13px;}
 
 
 
+main { padding: 50px;}
 
 
-
-.grillaProductos { display: flex;}
-.grillaProductos .card { width: 300px; margin: 10px; text-align: center;}
+.grillaProductos { padding: 0 !important;}
+.grillaProductos .listado { display: flex; width: 100%; margin-top: 30px; flex-wrap: wrap;}
+.grillaProductos .card { width: 300px; margin: 10px; text-align: center; text-decoration: none !important; color: #333 !important; box-sizing: border-box;
+    -moz-transition:all 0.25s ease 0s;
+    -o-transition:all 0.25s ease 0s;
+    -ms-transition:all 0.25s ease 0s;
+    -webkit-transition:all 0.25s ease 0s;}
 .grillaProductos .card .price { font-size: 25px; line-height: 32px; font-weight: 700; color: rgb(10, 37, 156);}
+.grillaProductos .card:hover { border: 1px solid #999;}
+.grillaProductos .card .descripcion { min-height: 60px; opacity: 0.6;
+    -moz-transition:all 0.25s ease 0s;
+    -o-transition:all 0.25s ease 0s;
+    -ms-transition:all 0.25s ease 0s;
+    -webkit-transition:all 0.25s ease 0s;}
+.grillaProductos .card:hover .descripcion { opacity: 1;}
 
 .contSumaResta { width: 100%; margin: auto; height: auto; display: flex; align-items: center; justify-content: space-between; border: 1px solid #CCC; box-sizing: border-box; padding: 3px;
     -webkit-border-radius: 5px ;
@@ -72,7 +84,7 @@ nav .contCarrito small { color: #FFF; font-size: 13px;}
 
 .contadorProductos .btnAgregar { width: 100%; margin: auto; display: block; text-transform: uppercase; padding: 12px 0px;}
 
-
-
+#cargando img { height: 40px; margin: 20px;}
+.loadingEnd { display: none;}
 
 

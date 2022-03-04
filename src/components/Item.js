@@ -27,15 +27,15 @@ const ItemCard = ({titulo,descripcion,precio,imagen,stock,inicial}) => {
     }
 
     return (
-        <div className="card p-4">
+        <a href='#' className="card p-4">
             <img src={imagen} className="card-img-top w-100"></img>
             <div className="card-body p-0">
-                <h5 className="card-title fw-bold">{titulo}</h5>
-                <p className="card-text mb-1">{descripcion}</p>
+                <h5 className="card-title fw-bold mt-3">{titulo}</h5>
+                <p className="card-text mb-1 descripcion">{descripcion}</p>
                 <p className='price mb-3'>$ {precio}</p>
                 <ItemCount inicial={inicial} clickMenos={clickMenos} clickMas={clickMas} estado={estado} onAdd={onAdd} />
             </div>
-        </div>
+        </a>
     )
 
 }
