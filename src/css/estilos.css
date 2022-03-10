@@ -85,6 +85,37 @@ main { padding: 50px;}
 .contadorProductos .btnAgregar { width: 100%; margin: auto; display: block; text-transform: uppercase; padding: 12px 0px;}
 
 #cargando img { height: 40px; margin: 20px;}
+#cargando2 img { height: 40px; margin: 20px;}
 .loadingEnd { display: none;}
+
+
+
+
+
+
+.contDetalle { width: 100%; height: auto; max-width: 1400px;  margin: auto; display: flex; align-items: flex-start; box-sizing: border-box; padding: 40px;}
+.contDetalle .contFoto { width: 50%;}
+.contDetalle .contData { width: 50%; box-sizing: border-box; padding-left: 30px;}
+.contDetalle .contData .titulo { font-size: 30px; line-height: 40px; margin-bottom: 10px;}
+.contDetalle .contData .descripcion { margin-bottom: 20px;}
+.contDetalle .contData .price { font-weight: bold; font-size: 26px; line-height: 34px; color: rgb(10, 37, 156);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
